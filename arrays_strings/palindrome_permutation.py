@@ -6,3 +6,10 @@ Give a string, wirte a function to check if itsa aa permutation of a plandrome.
 	- the palendrome does not have to be limited to just dictionary workds. 
 	- you can ignore caseing and non letter words. 
 """
+
+
+
+
+
+if __name__ == '__main__':
+	main()

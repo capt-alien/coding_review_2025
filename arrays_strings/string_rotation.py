@@ -7,3 +7,9 @@ Assume you have a mehtod isSubstring which chcecks if one word is a substring of
 	useing only one call to isSubstring
 
 """
+def isSubstring(string, substring):
+	pass
+
+
+def is_rotation(string, substring):
+	pass

@@ -8,7 +8,10 @@ There are three types of edits that can be perfomed ons stings:
 	-replace a charictor
 	
 	gitve two strings check to see if they are one or less edits away from eachother
-	
-
-
 """
+
+
+
+
+if __name__ == '__main__':
+	main()
