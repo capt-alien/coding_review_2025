@@ -4,36 +4,26 @@ import sys
 """
 Problem: Rotate Matrix by 90 Degrees
 
-You are given an  n \times n  matrix (a 2D list in Python) representing an image, where each element represents a pixel’s color in grayscale. Your task is to rotate the matrix 90 degrees clockwise in place.
-
-Input:
-
-	•	An  n \times n  list matrix of integers, where  1 \leq n \leq 20 .
-
-Output:
-	•	Modify the input matrix in place so that it is rotated 90 degrees clockwise.
-
-Example:
-
+given an image represented by an N*N matrix, where each pixle is represented
+by an integer, write a method to rotate the image 90 degrees. 
 
 
 """
 
-def rotate_one(m):
-  return [[m[0][1], m[0][2], m[1][2]],
-         [m[0][0], m[1][1], m[2][2]],
-         [m[1][0], m[2][0], m[2][1]]
-        ]
+# def rotate_one(m):
+#   return [[m[0][1], m[0][2], m[1][2]],
+#          [m[0][0], m[1][1], m[2][2]],
+#          [m[1][0], m[2][0], m[2][1]]
+#         ]
 
-def roatate_n(matrix, n):
-  new = matrix
-  for x in range(n):
-    new = rotate_one(new)
+# def roatate_n(matrix, n):
+#   new = matrix
+#   for x in range(n):
+#     new = rotate_one(new)
 
-  return new
+#   return new
 
-def ner(ele, n):
-  return (ele + n) % 8
+#this should be a simple transpose problem. 
 
 
 if __name__ == '__main__':
